@@ -1,6 +1,6 @@
 FROM alpine
 
-RUN apk add --no-cache fio bash util-linux
+RUN apk add --no-cache fio bc bash util-linux
 
 CMD ln -s /usr/bin/fio /usr/local/bin/fio
 
